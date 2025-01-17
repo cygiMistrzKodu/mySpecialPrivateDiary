@@ -1,12 +1,12 @@
 
 import { Container } from 'react-bootstrap';
-import './MyHistory.css'
+import  myhistoryCss from './MyHistory.module.css'
 
 const MyHistory = () => {
   return (
-    <Container className="full-screen">
+    <Container className={myhistoryCss.fullScreen}>
 
-      <div>
+      <div >
         <h1>Tutaj jest moja historia wpisów</h1>
       </div>
 

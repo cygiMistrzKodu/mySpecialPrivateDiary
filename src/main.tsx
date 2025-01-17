@@ -5,7 +5,6 @@ import MyHistory from './MyHistory.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/* <App /> */}
     <MyHistory />
   </StrictMode>,
 )
